@@ -12,6 +12,7 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.support.destination.DynamicDestinationResolver;
 import javax.jms.Session;
+
 @Configuration
 @EnableJms
 public class JmsConfig {
